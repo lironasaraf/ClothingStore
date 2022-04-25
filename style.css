@@ -122,3 +122,26 @@ body {
     font-weight: 700;
     font-size: 15px;
 }
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#feature .fe-box{
+    width: 300px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: 10px 10px 34px rgba(0, 0, 0, 0.03);
+    border-radius: 4px ;
+    margin: 10px 0;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+
+}
+#feature .fe-box img{
+    width: 80%;
+    margin-bottom: 10px;
+
+}
